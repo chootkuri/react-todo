@@ -25,8 +25,8 @@ function App() {
   }
 
   return (
-    <div>
-      <h1>일정관리2</h1>
+    <div class="main">
+      <h1>일정관리</h1>
       <TodoInsert handleAddTodo={handleAddTodo} />
       <TodoList todos={todos} removeTodo={handleRemoveTodo} handleCheck={handleCheck}/>
     </div>
