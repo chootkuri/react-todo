@@ -1,0 +1,8 @@
+.done-task {
+    text-decoration: line-through;
+    color: #ccc;
+}
+
+.task {
+    color: blue;
+}
